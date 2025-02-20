@@ -13,7 +13,7 @@ class AsociationPolicy
      */
     public function viewAny(User $user): bool
     {
-        return false;
+        return true;
     }
 
     /**
@@ -21,7 +21,7 @@ class AsociationPolicy
      */
     public function view(User $user, Asociation $asociation): bool
     {
-        return false;
+        return true;
     }
 
     /**
