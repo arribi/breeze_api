@@ -9,6 +9,7 @@ class Asociation extends Model
 {
     /** @use HasFactory<\Database\Factories\AsociationFactory> */
     use HasFactory;
+
     protected $fillable = [
         'name',
         'description',
