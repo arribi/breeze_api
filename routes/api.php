@@ -15,5 +15,5 @@ Route::group(['as' => 'api.'], function () {
     Orion::resource('asociations', AsociationController::class);
 });
 
-// Si protego con sanctum breeze redirigie a login (post)
+// Si protejo con sanctum breeze redirigie a login (post)
 // Route::apiResource('asociations', AsociationController::class)->middleware('auth:sanctum');
